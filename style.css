@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+  background-color: #ededed;
+}
+h1 {
+  font-size: 70px;
+  color: black;
+  text-shadow: 5px 5px white;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.board {
+  width: 500px;
+  height: 500px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top,
+.mid,
+.footer {
+  border: 1px solid blueviolet;
+}
+
+button {
+  width: 80px;
+  font-size: 30px;
+  background-color: white;
+  box-shadow: 5px 5px;
+  outline: none;
+}
+
+.mid {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  height: 5vh;
+  font-size: 25px;
+  justify-content: center;
+}
+.made {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gitfoot {
+  display: flex;
+  align-items: center;
+}
+#cata {
+  margin-left: 10px;
+}
+#gh-logo {
+  width: 35px;
+  height: 35px;
+}
